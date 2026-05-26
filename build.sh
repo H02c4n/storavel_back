@@ -4,6 +4,7 @@ set -e
 pip install -r requirements.txt
 python manage.py collectstatic --no-input
 python manage.py migrate --run-syncdb
+python manage.py seed
 python manage.py shell -c "
 from django.contrib.auth import get_user_model
 User = get_user_model()
