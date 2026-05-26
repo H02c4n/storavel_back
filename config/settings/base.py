@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
 'django.middleware.security.SecurityMiddleware',
+'whitenoise.middleware.WhiteNoiseMiddleware',
 'corsheaders.middleware.CorsMiddleware',
 'django.contrib.sessions.middleware.SessionMiddleware',
 'django.middleware.common.CommonMiddleware',
@@ -187,3 +188,6 @@ SPECTACULAR_SETTINGS = {
 'DESCRIPTION': 'Language learning platform backend',
 'VERSION': '1.0.0',
 }
+
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
