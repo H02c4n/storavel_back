@@ -678,17 +678,561 @@ That’s right. Exactly."""
             self.stdout.write('  ✅ Story: The Secret Inside the Laboratory')
 
         versions = {
-            'original': """Mia lived with her father in a quiet house...""",
-            'present': """Rain taps softly against the windows...""",
-            'past': """Years later, Mia still remembered...""",
-            'future': """One evening, Mia will walk slowly...""",
-            'vocabulary': """Mia's father maintained a secretive laboratory...""",
-            'native': """So Mia's dad has this laboratory in the basement...""",
-            'dialog': """Sarah: Hey, have you heard the story about Mia and the laboratory?...""",
-            'idioms': """Mia's father always kept his laboratory under wraps...""",
-            'emotional': """The laboratory door always made Mia uneasy...""",
-            'qa': """Mia's father has a laboratory. Does Mia's father have a laboratory?..."""
+            'original': """Mia lived with her father in a quiet house. Her father was a scientist, and he had a laboratory in the basement. The laboratory door was always closed and locked. Whenever her father entered the room, he made sure nobody followed him inside.
+
+Mia often wondered what her father was doing in there. He told her that he worked on important projects, but he never explained anything in detail. This made Mia even more curious.
+
+One evening, Mia walked past the laboratory door. She paused and stared at it quietly.
+
+"I wonder what strange experiment Dad is doing now," she thought.
+
+Suddenly, a loud and frightening laugh came from inside the laboratory.
+
+"Hahaha!"
+
+The sound shocked Mia. Her heart raced, and she quickly hurried back to her bedroom.
+
+The next day, Mia's best friend Liz came to visit. Mia immediately told her about the scary laugh she had heard.
+
+"It sounded terrible," Mia explained nervously.
+
+Liz's eyes widened with excitement. "Then we should investigate!" she said. "Maybe there's something mysterious inside."
+
+Mia felt unsure. She knew her father would not want them entering the laboratory. Still, her curiosity grew stronger.
+
+Later that evening, the girls watched carefully while Mia's father left the laboratory and went upstairs for dinner.
+
+"He forgot to lock the door!" Liz whispered excitedly.
+
+The girls slowly opened the door and stepped inside.
+
+The laboratory was dark and cold. Shelves filled with bottles and strange tools surrounded them. A strong chemical smell floated through the air.
+
+Mia's hands trembled slightly.
+
+"What if Dad is creating something dangerous?" she whispered.
+
+The girls carefully walked farther into the room.
+
+Then suddenly—
+
+"Hahaha!"
+
+The terrible laugh echoed through the laboratory again.
+
+The girls froze in fear.
+
+Mia imagined a horrible monster hiding in the shadows. Panic filled her chest, and she screamed loudly for help.
+
+Within seconds, Mia's father rushed into the room and turned on the lights.
+
+"What happened?" he asked in surprise.
+
+"Your monster tried to attack us!" Mia cried.
+
+"Monster?" her father repeated, looking confused.
+
+Then he picked up a beautiful doll from the worktable.
+
+The doll laughed again.
+
+"Hahaha!"
+
+But now the laugh sounded cheerful instead of evil.
+
+Mia's father smiled warmly.
+
+"I made this doll for your birthday," he explained. "I wanted it to surprise you."
+
+Mia looked at the doll and then started laughing at herself. Liz laughed too.
+
+The laboratory suddenly didn't seem frightening anymore.""",
+
+            'present': """Rain taps softly against the windows while Mia walks slowly through the hallway. The house feels unusually quiet tonight.
+
+At the end of the hallway stands the laboratory door.
+
+Closed.
+
+Locked.
+
+Mia stares at it curiously.
+
+Her father spends hours inside that mysterious room every single day. Whenever he enters, he carefully locks the door behind him. He never explains what he's building or researching.
+
+That secrecy makes Mia's imagination run wild.
+
+Maybe he's inventing robots.
+
+Maybe he's mixing dangerous chemicals.
+
+Or maybe…
+
+Maybe he's creating monsters.
+
+Mia bites her lip nervously as she approaches the door.
+
+"I wonder what he's doing in there right now," she whispers.
+
+Suddenly—
+
+A loud laugh explodes from inside the laboratory.
+
+"Hahaha!"
+
+The sound is deep, strange, and creepy.
+
+Mia jumps backward in shock. Her heart pounds rapidly against her chest. Goosebumps spread across her arms.
+
+"That definitely sounds evil," she thinks.
+
+Without waiting another second, she rushes upstairs to her room and pulls the blanket tightly around herself.
+
+The next evening, Liz arrives at the house carrying a backpack and a huge smile.
+
+"What's wrong?" Liz asks immediately after seeing Mia's worried face.
+
+Mia tells her everything.
+
+"The laugh sounded terrifying," Mia explains. "I swear something horrible is in there."
+
+Instead of looking frightened, Liz becomes excited.
+
+"We should check it out!" she says eagerly.
+
+"What? No way," Mia replies instantly.
+
+But deep inside, Mia wants to know the truth too.
+
+Later that night, the girls sit quietly near the stairs while Mia's father leaves the laboratory and heads toward the kitchen.
+
+Then Liz notices something important.
+
+"The door isn't locked."
+
+The girls exchange nervous glances.
+
+Slowly, they open the door.
+
+Cold air drifts out from the dark basement laboratory. Strange shadows cover the walls. Glass bottles shine beneath dim lights, and the sharp smell of chemicals fills the room.
+
+Mia feels her stomach tighten.
+
+Every step sounds louder than normal.
+
+Creak.
+
+Creak.
+
+Creak.
+
+Then suddenly—
+
+"Hahaha!"
+
+The terrible laugh echoes through the darkness again.
+
+Mia freezes completely.
+
+Her imagination explodes with fear.
+
+"What if there's a monster hiding down here?" she thinks desperately.
+
+Panic takes over.
+
+"HELP!" she screams.
+
+Footsteps thunder down the stairs.
+
+Mia's father bursts into the room and flips on the lights.
+
+Bright light fills the laboratory instantly.
+
+Mia points shakily toward the table.
+
+"Your monster almost killed us!"
+
+Her father blinks in confusion.
+
+"Monster?"
+
+Then he lifts a pretty doll into the air.
+
+The doll laughs sweetly.
+
+"Hahaha!"
+
+Now the sound feels playful instead of terrifying.
+
+Mia's father smiles softly.
+
+"I made this for your birthday," he says kindly. "I wanted it to surprise you."
+
+Mia exhales deeply and starts laughing in relief.
+
+The scary laboratory suddenly feels warm and harmless.""",
+
+            'past': """Years later, Mia still remembered the night she believed her father had created a monster in his laboratory.
+
+At the time, she had been completely convinced something terrifying lived behind that locked door.
+
+Her father had always kept the laboratory private. Every evening, he disappeared downstairs for hours, locking the door carefully behind him. Whenever Mia asked questions, he simply smiled and changed the subject.
+
+Naturally, her curiosity had grown stronger and stronger.
+
+Then one night, everything changed.
+
+Mia had been walking quietly past the laboratory when she suddenly heard a strange laugh echo from inside.
+
+It had sounded dark, unnatural, and frightening.
+
+She had frozen instantly before running back to her room in fear.
+
+The following evening, Mia told her best friend Liz about the experience.
+
+Unlike Mia, Liz had seemed thrilled by the mystery.
+
+"We have to investigate," Liz had insisted.
+
+Mia had hesitated at first, but eventually curiosity overcame her fear.
+
+That night, they waited patiently until Mia's father left the laboratory for dinner. To their surprise, he had forgotten to lock the door.
+
+The girls had slowly stepped into the dark basement laboratory.
+
+Mia still remembered the smell of chemicals in the air and the strange shadows stretching across the room. Every sound had felt dangerous.
+
+Then they heard the laugh again.
+
+Louder.
+
+Scarier.
+
+The girls had panicked immediately.
+
+Mia truly believed a monster was hiding somewhere nearby. Terrified, she screamed for help.
+
+Within moments, her father had rushed downstairs and turned on the lights.
+
+Then the truth became clear.
+
+There was no monster.
+
+Only a beautiful doll sitting on the table.
+
+The doll itself had been making the creepy laugh.
+
+Her father explained that he had secretly been building the doll as a birthday present for Mia.
+
+At first, Mia had felt embarrassed for imagining something so terrible. But soon she and Liz had laughed together about the misunderstanding.
+
+Looking back, Mia realized something important that night:
+
+Fear often becomes much bigger inside our imagination.""",
+
+            'future': """One evening, Mia will walk slowly past her father's mysterious laboratory. The door will be closed as usual, and curiosity will begin growing inside her mind once again.
+
+Her father will continue keeping the laboratory secret. He will never fully explain what he is creating inside, and this mystery will make Mia imagine all kinds of strange possibilities.
+
+As she stands near the door, she will suddenly hear a loud and frightening laugh coming from inside.
+
+The sound will send fear through her entire body.
+
+She will quickly run back to her room, unable to stop thinking about it.
+
+The next day, her friend Liz will come over to visit. After hearing the story, Liz will become excited instead of scared.
+
+"We should go inside and investigate," Liz will suggest.
+
+At first, Mia will hesitate, but eventually she will agree.
+
+Later that evening, the girls will notice something surprising: Mia's father will leave the laboratory without locking the door.
+
+The girls will slowly enter the dark basement room together.
+
+Inside, they will smell strong chemicals and see strange scientific equipment everywhere. The atmosphere will feel cold and mysterious.
+
+Then suddenly, the terrifying laugh will echo through the laboratory again.
+
+Mia will panic.
+
+She will imagine a dangerous monster hiding in the shadows, waiting to attack them.
+
+Frightened, she will scream loudly for help.
+
+Her father will rush into the laboratory and turn on the lights immediately.
+
+Then he will reveal the truth.
+
+The scary sound will not come from a monster at all.
+
+Instead, it will come from a beautiful doll that he has secretly been creating for Mia's birthday.
+
+In the end, the girls will laugh with relief, and Mia will learn that imagination can sometimes create fears much bigger than reality.""",
+
+            'vocabulary': """Vocabulary-Rich Story
+
+Mia's father maintained a secretive laboratory in the basement of their home. His mysterious behavior and constant privacy sparked Mia's curiosity.
+
+One evening, Mia heard a sinister laugh emerging from behind the locked laboratory door. Terrified by the disturbing sound, she fled to her bedroom.
+
+The following night, Mia and her adventurous friend Liz cautiously entered the dim laboratory after discovering the door unlocked.
+
+Inside, strange chemical odors filled the air, and shadows stretched across the room, creating an eerie atmosphere.
+
+When the horrifying laugh echoed once again, Mia became convinced that her father had engineered a dangerous creature.
+
+However, the frightening mystery turned out to be harmless. The "monster" was simply a laughing doll her father had crafted as a birthday surprise.
+
+Vocabulary Table:
+- Secretive: Hiding information
+- Mysterious: Difficult to understand
+- Sinister: Evil or frightening
+- Disturbing: Causing worry or fear
+- Cautiously: Carefully to avoid danger
+- Dim: Not bright
+- Eerie: Strange and frightening
+- Engineered: Designed or created
+- Crafted: Made carefully by hand
+- Atmosphere: Feeling or mood
+
+Synonym Groups:
+Scary → frightening, terrifying, creepy, horrifying, disturbing
+Curious → interested, eager, inquisitive, fascinated, questioning
+Secret → hidden, private, confidential, mysterious, concealed
+
+Useful Phrases:
+- "Run wild" (imagination becomes uncontrolled)
+- "Jump out of your skin" (become extremely frightened suddenly)
+- "All in her head" (imagined, not real)""",
+
+            'native': """So Mia's dad has this laboratory in the basement, and honestly, it's the kind of room that automatically feels suspicious.
+
+Like, the door is always locked.
+
+Always.
+
+And every time he goes in there, he acts super secretive about whatever he's working on.
+
+Naturally, Mia's curiosity goes through the roof.
+
+One night she's standing outside the lab thinking, "Okay… what weird experiment is he doing now?"
+
+And then suddenly—
+
+This creepy laugh comes from inside.
+
+Not a normal laugh either. Like full-on horror movie laughter.
+
+Mia freaks out and runs straight back to her room.
+
+The next day her friend Liz comes over, and after hearing the story, Liz is immediately like, "We HAVE to go inside."
+
+Classic brave friend behavior.
+
+At first Mia's nervous, but eventually curiosity wins.
+
+Later that night they notice Mia's dad leaves the lab door unlocked while he goes upstairs for dinner.
+
+Big mistake.
+
+The girls sneak downstairs into the lab, and the whole place feels terrifying. It's dark, smells like chemicals, and there are shadows everywhere.
+
+Then they hear the laugh again.
+
+Louder this time.
+
+At this point Mia is 100% convinced there's some mutant monster hiding down there.
+
+She screams for help.
+
+Her dad comes running downstairs, flips on the lights, and looks completely confused.
+
+Then he picks up this cute little doll.
+
+The doll laughs again.
+
+And suddenly the scary evil laugh just sounds… silly.
+
+Turns out her dad had been secretly building the doll for Mia's birthday.
+
+Honestly, that's kind of sweet.
+
+And also a pretty good reminder that our imagination can make things WAY scarier than they really are.""",
+
+            'dialog': """Sarah: Hey, have you heard the story about Mia and the laboratory?
+Daniel: No, what happened?
+Sarah: So Mia's dad had this secret laboratory in their basement.
+Daniel: That already sounds creepy.
+Sarah: Exactly! And he always kept the door locked.
+Daniel: Okay yeah, I'd definitely be curious too.
+Sarah: Same. One night Mia heard this terrifying laugh coming from inside.
+Daniel: No way.
+Sarah: Seriously. She got so scared she ran straight back to her room.
+Daniel: Honestly, I would've done the same thing.
+Sarah: Then the next day her friend Liz comes over.
+Daniel: Let me guess… Liz wanted to investigate?
+Sarah: Of course. She was like, "This will be fun!"
+Daniel: That's always the person who gets everyone into trouble.
+Sarah: Exactly! So later they realize Mia's dad forgot to lock the laboratory.
+Daniel: Big mistake.
+Sarah: Yep. They sneak inside, and the place is dark and smells like chemicals.
+Daniel: That sounds like a horror movie already.
+Sarah: Then suddenly they hear the evil laugh again.
+Daniel: Nope. I'm leaving immediately.
+Sarah: Mia basically panics and screams for help.
+Daniel: So what was making the sound?
+Sarah: A doll.
+Daniel: Wait… seriously?
+Sarah: Yep! Her dad made it for her birthday.
+Daniel: That's actually really sweet.
+Sarah: I know, right? They thought it was a monster the whole time.
+Daniel: Honestly, imagination makes everything scarier.
+Sarah: Exactly.""",
+
+            'idioms': """Mia's father always kept his laboratory under wraps, which only made Mia more curious about what was going on behind the locked door.
+
+One evening, Mia heard a sinister laugh coming from inside the laboratory, and it completely sent chills down her spine.
+
+The next day, when her adventurous friend Liz arrived, she immediately suggested they get to the bottom of the mystery.
+
+At first, Mia was hesitant, but eventually curiosity got the better of her.
+
+When they discovered the laboratory door unlocked, the girls slipped inside quietly. The dark room, strange chemicals, and eerie shadows made Mia feel completely out of her depth.
+
+Then the horrifying laugh echoed through the laboratory once again.
+
+At that moment, Mia's imagination ran wild. She became convinced her father had created some kind of monster.
+
+Panicking, she cried for help.
+
+Seconds later, her father rushed in and cleared everything up. The terrifying sound had actually come from a birthday doll he had been working on for weeks.
+
+In the end, the girls realized they had blown the whole thing out of proportion.
+
+Idiom List:
+- Under wraps (kept secret)
+- Send chills down your spine (cause fear)
+- Get to the bottom of (discover the truth)
+- Get the better of someone (control someone emotionally)
+- Out of her depth (in a difficult situation)
+- Run wild (become uncontrolled)
+- Clear things up (explain confusion)
+- Blow out of proportion (exaggerate something)""",
+
+            'emotional': """The laboratory door always made Mia uneasy.
+
+Every evening, her father disappeared behind it, locking the door carefully before beginning his mysterious work downstairs. Mia never knew what he was creating, and somehow the silence made everything feel even more frightening.
+
+The unknown filled her imagination with endless possibilities.
+
+One cold evening, Mia stood quietly outside the laboratory door. The hallway lights were dim, and the house felt strangely still.
+
+Then suddenly—
+
+"Hahaha!"
+
+A horrifying laugh burst through the silence.
+
+Mia's entire body froze.
+
+The sound felt unnatural, almost inhuman. Fear rushed through her chest so quickly she could barely breathe.
+
+She ran back to her room, pulling the blanket tightly around herself as her mind filled with terrifying thoughts.
+
+The next day, when Liz visited, Mia finally told someone what she had heard.
+
+But while Mia felt afraid, Liz felt excited.
+
+"We should go inside," Liz whispered with curiosity shining in her eyes.
+
+Mia hesitated. Part of her wanted to refuse.
+
+But another part desperately wanted answers.
+
+That night, they noticed the laboratory door standing slightly open.
+
+For a moment, both girls stood silently at the top of the stairs.
+
+Then slowly, they stepped inside.
+
+The basement felt cold and shadowy. Strange bottles lined the shelves, and the sharp smell of chemicals floated through the dark air.
+
+Every small noise made Mia's heart beat faster.
+
+Then the laugh came again.
+
+Louder.
+
+Closer.
+
+"Hahaha!"
+
+Fear exploded inside her.
+
+In her mind, she imagined glowing eyes hidden in the darkness. She imagined terrible experiments and dangerous monsters waiting nearby.
+
+Unable to control her panic anymore, Mia screamed for help.
+
+Seconds later, her father rushed downstairs and turned on the lights.
+
+Everything changed instantly.
+
+There were no monsters.
+
+No evil experiments.
+
+Only a beautiful doll resting gently on the table.
+
+The doll laughed again softly.
+
+Mia stared in disbelief while her father smiled warmly.
+
+"I made this for your birthday," he said quietly. "I wanted it to surprise you."
+
+At that moment, Mia felt relief wash over her completely. Her fear disappeared, replaced by embarrassment, laughter, and love.
+
+Sometimes the scariest monsters exist only inside our imagination.""",
+
+            'qa': """Mia's father has a laboratory.
+Does Mia's father have a laboratory? Yes, yes. He has a laboratory.
+Is the laboratory always open? No, no. It is always locked.
+Who locks the laboratory? Mia's father locks the laboratory.
+Does Mia know what is inside? No. She does not know.
+Is she curious? Yes! She is very curious.
+
+One night, Mia hears a strange laugh.
+Does Mia hear music? No, no. She hears a strange laugh.
+Is the laugh friendly? No! It sounds scary.
+Does Mia stay there calmly? No. She runs back to her room.
+
+The next day, Liz visits Mia.
+Who visits Mia? Liz visits Mia.
+Does Mia tell Liz about the laugh? Yes, yes. She tells Liz everything.
+Does Liz become scared? No. Liz becomes excited.
+What does Liz want to do? She wants to enter the laboratory.
+
+Later, Mia's father forgets to lock the door.
+Is the door locked? No! The door is unlocked.
+Do the girls go inside? Yes. They go inside carefully.
+Is the laboratory bright? No, no. It is dark.
+What do they smell? They smell strange chemicals.
+
+Suddenly, they hear the laugh again.
+Do they hear a dog barking? No. They hear the laugh again.
+Is Mia afraid? Yes! She is terrified.
+What does Mia think? She thinks there is a monster.
+Does she scream for help? Yes, yes. She screams loudly.
+
+Who comes into the laboratory? Mia's father comes in.
+Does he turn on the lights? Yes. He turns on the lights.
+What is making the laugh? A doll is making the laugh.
+Is it really a monster? No, no. It is only a doll.
+Why did Mia's father make the doll? Because it is a birthday present for Mia.
+Is Mia happy at the end? Yes! She is very happy.
+That's right. Exactly."""
         }
+
         for vtype, content in versions.items():
             StoryVersion.objects.get_or_create(story=story, version_type=vtype, defaults={'content': content})
             self.stdout.write(f'    ✅ Version: {vtype}')
