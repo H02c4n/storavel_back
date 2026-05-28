@@ -62,7 +62,7 @@ class Command(BaseCommand):
     # ------------------------------------------------------------
     def create_languages(self):
         swedish, _ = Language.objects.get_or_create(
-            code='sv',
+            code='🇸🇪',
             defaults={'name': 'Swedish', 'native_name': 'Svenska', 'flag_emoji': '🇸🇪',
                       'script': 'latin', 'rtl': False, 'has_romanization': False,
                       'is_active': True, 'order': 1}
@@ -102,7 +102,7 @@ class Command(BaseCommand):
     # Berättelse: Lejonet och den listiga kaninen
     # ------------------------------------------------------------
     def create_rabbit_lion_story(self, user, tags):
-        swedish = Language.objects.get(code='sv')
+        swedish = Language.objects.get(code='🇸🇪')
         story, created = Story.objects.get_or_create(
             slug='lejonet-och-den-listiga-kaninen',
             defaults={
@@ -400,7 +400,7 @@ Ja, det är slut."""
     # Berättelse: Hemligheten i laboratoriet
     # ------------------------------------------------------------
     def create_laboratory_story(self, user, tags):
-        swedish = Language.objects.get(code='sv')
+        swedish = Language.objects.get(code='🇸🇪')
         story, created = Story.objects.get_or_create(
             slug='hemligheten-i-laboratoriet',
             defaults={
@@ -813,7 +813,7 @@ Blir Mia glad till slut? Precis. Hon blir glad och lättad."""
     # Ordlista för Kaninberättelsen (12 ord)
     # ------------------------------------------------------------
     def create_vocabulary_rabbit(self):
-        swedish = Language.objects.get(code='sv')
+        swedish = Language.objects.get(code='🇸🇪')
         words_data = [
             {'word': 'grym', 'pos': 'adj', 'def': 'extremt elak och våldsam', 'level': 'B1',
              'trans': {'en':'ferocious','es':'feroz','tr':'vahşi','fr':'féroce'}, 'syn':['elak','brutal']},
@@ -866,7 +866,7 @@ Blir Mia glad till slut? Precis. Hon blir glad och lättad."""
     # Ordlista för Laboratorieberättelsen (12 ord)
     # ------------------------------------------------------------
     def create_vocabulary_laboratory(self):
-        swedish = Language.objects.get(code='sv')
+        swedish = Language.objects.get(code='🇸🇪')
         words_data = [
             {'word': 'mystisk', 'pos': 'adj', 'def': 'hemlighetsfull, svår att förstå', 'level': 'B1',
              'trans': {'en':'mysterious','es':'misterioso','tr':'gizemli','fr':'mystérieux'}, 'syn':['gåtfull','dold']},
