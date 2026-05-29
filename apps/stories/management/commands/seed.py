@@ -22,11 +22,11 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         self.stdout.write(self.style.SUCCESS('🌱 Seeding combined stories'))
 
-        # 1. Language
+        """ # 1. Language
         self.create_languages()
 
         # 2. Demo user
-        demo_user = self.create_users()
+        demo_user = self.create_users() """
 
         # 3. Tags
         tags = self.create_tags()
@@ -53,7 +53,7 @@ class Command(BaseCommand):
         self.create_quiz_dog(dog_bell_story)
 
         # 8. Update demo user
-        self.update_user_progress(demo_user, rabbit_story, lab_story, all_vocab)
+        #self.update_user_progress(demo_user, rabbit_story, lab_story, all_vocab)
 
         self.stdout.write(self.style.SUCCESS('✅ Combined seeding completed!'))
 
