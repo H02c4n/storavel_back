@@ -68,7 +68,7 @@ class Command(BaseCommand):
                       'is_active': True, 'order': 1}
         )
         self.stdout.write(f'  ✅ Language: English')
-        for code in ['sv']:
+        for code in ['sv', 'tr', 'es', 'fr']:
             Language.objects.get_or_create(code=code)
 
     def create_users(self):
