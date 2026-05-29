@@ -22,11 +22,11 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         self.stdout.write(self.style.SUCCESS('🌱 Seeding combined stories'))
 
-        """ # 1. Language
+        # 1. Language
         self.create_languages()
 
         # 2. Demo user
-        demo_user = self.create_users() """
+        demo_user = self.create_users()
 
         # 3. Tags
         tags = self.create_tags()
@@ -60,7 +60,7 @@ class Command(BaseCommand):
     # ------------------------------------------------------------
     # Helper: languages
     # ------------------------------------------------------------
-    """ def create_languages(self):
+    def create_languages(self):
         english, _ = Language.objects.get_or_create(
             code='en',
             defaults={'name': 'English', 'native_name': 'English', 'flag_emoji': '🇺🇸',
@@ -68,7 +68,7 @@ class Command(BaseCommand):
                       'is_active': True, 'order': 1}
         )
         self.stdout.write(f'  ✅ Language: English')
-        for code in ['sv', 'tr', 'es', 'fr']:
+        for code in ['sv']:
             Language.objects.get_or_create(code=code)
 
     def create_users(self):
@@ -84,7 +84,7 @@ class Command(BaseCommand):
             self.stdout.write('  ✅ Demo user created (demo@storavel.com / demo123)')
         else:
             self.stdout.write('  ⚠️ Demo user already exists')
-        return demo """
+        return demo
 
     def create_tags(self):
         tag_names = [
